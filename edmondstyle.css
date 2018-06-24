@@ -1,0 +1,349 @@
+
+/* General element styling */
+
+h1, h2, h3, h4 {
+	font-family: "Heebo", sans-serif;
+	margin-bottom: 25px;
+}
+.expertise-head {
+	margin-bottom: 5px;
+}
+
+h3 {
+	margin-bottom: 75px;
+}
+
+
+p, a {
+	font-family: "Rokkitt", serif;
+	font-size: 1.2em;
+
+}
+
+p {
+	color: rgb(148, 146, 146);
+}
+
+
+/* Container padding  */
+
+.third-container-bg {
+	background-color: rgb(238, 236, 236);
+}
+
+
+
+.container-padding {
+	padding-top: 10% !important;
+	padding-bottom: 10% !important;
+	padding-left: 15% !important;
+	padding-right: 15% !important;
+}
+
+.container-padding-first {
+	padding-top: 5% !important;
+	padding-bottom: 0% !important;
+	padding-left: 15% !important;
+	padding-right: 15% !important;
+}
+
+
+
+.background-container {
+	width: 100%;
+	padding: 0;
+	margin:0;
+	background: linear-gradient(
+	rgba(255, 206, 107,0.10), rgba(255, 206, 107,0.50)
+	), url('images/background.png') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.second-container {
+	width: 100%;
+		/* background: linear-gradient(
+ 	rgba(56,175,170,1.0), rgba(47,163,159,0.80)); */
+	text-align: center;
+}
+
+
+.container-fluid{
+	padding: 0;
+}
+
+
+.other-projects-container {
+	text-align: center;
+}
+
+/* other element styling */
+
+.fa-4x {
+	color: #FFC66B;
+	text-align: middle;
+}
+
+.project-title {
+	margin-bottom: 10px; 
+}
+
+.border {
+	margin: 0 auto;
+	float: none;
+	border: 4px solid #fff;
+	border-radius: 49.9%;
+	width: 200px;
+    height: 200px;
+    background-clip: content-box;
+    box-sizing: border-box;
+    background-color: white;
+    padding-top: 0;
+}
+
+
+.small-project-picture {
+	width: 250px;
+	margin: 20px auto;
+	border-radius: 10px;
+}
+.expertise {
+	padding: 5%;
+}
+
+.main-project-box-left {
+	width: 60%;
+	margin: 3% auto;
+	float: left;
+}
+
+.main-project-box-right {
+	width: 60%;
+	margin: 3% auto;
+	float: right;
+}
+
+
+.main-project-pic-right {
+
+	width: 60%;
+	height: auto;
+	margin: 5% auto;
+	float: right;
+}
+
+.main-project-pic-left {
+
+	width: 60%;
+	height: auto;
+	margin: 5% auto;
+	float: left;
+}
+
+#edmond{
+	box-shadow: 1px white;
+
+}
+
+#first-heading {
+	color:white;
+	margin: 35px auto;
+	float: none;
+	text-align: center;
+	text-shadow: 1px 1px gray;
+}
+
+#hire {
+	margin: 40px auto;
+	width: 300px;
+	height: 50px;
+	box-shadow: 1px black;
+	font-size: 24px;
+	text-shadow: 1px 1px gray;
+}
+
+#description {
+	color: white;
+	text-align: justify;
+	font-size: 1.2em;
+		text-shadow: 1px 1px gray;
+}
+
+.description{
+	width: 100%;
+	max-width: 400px;
+	margin: 30px auto 40px auto;
+}
+
+
+h4 {
+	margin: 0px;
+	margin-bottom: 10px;
+	margin-top: 25px;
+	color:rgba(255,255,255,0.80);
+	text-shadow: 1px 1px gray;
+}
+
+.highlight:hover h4 {
+	color:rgba(255,255,255,1.0) !important;
+}
+
+.highlight:hover i {
+	color:rgba(255,255,255,1.0) !important;
+}
+
+.fa-2x:hover {
+	color:rgba(255,255,255,1.0) !important;
+}
+
+
+#aboutmechevron .fa-chevron-down{
+color:rgba(255,255,255,0.80);
+margin: 3px auto 25px auto;
+	text-shadow: 1px 1px gray;
+	width: 100px;
+}
+
+
+
+.left-picture {
+	float: right;
+	padding: 50px;
+
+}
+
+.project-desc {
+	color: #93C5C3;
+	list-style: none;
+	text-align: left;
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding-left: -5px;
+	margin-left: -12%;
+	border: 0;
+	text-transform: uppercase;
+	font-family: Rokkitt;
+}
+
+.project-desc::before {
+	color: rgb(255, 206, 107);
+	content: "•";
+	font-size: 1em;
+	padding-right: 5px;
+	position: relative;
+	top:0em;
+
+
+}
+
+.project-description {
+	width: 100%;
+	margin:auto;
+	margin-bottom: 30px;
+}
+  #hire-me {
+
+ 	display: none;
+ 	text-shadow: 1px 1px gray;
+ }
+
+.person-pic {
+	max-width: 75px; 
+	margin: auto 10px;
+	display: inline-block;
+	overflow: hidden;
+	vertical-align: middle;
+}
+
+.person-desc{
+	display: inline-block;
+	margin-top: 10px;
+
+
+}
+
+
+.project-desc-lg {
+	text-align: justify;
+}
+
+@media screen and (max-width: 400px){
+
+	.background-container {
+		background: linear-gradient(
+		rgba(255, 198, 107, 1), rgba(255, 206, 107,0.80)
+		);}
+
+	.main-project-box-left {
+	width: 100%;
+	margin: auto;
+	float: initial;
+}
+
+	.main-project-box-right {
+	width: 100%;
+	margin:  auto;
+	float: initial;
+
+}
+
+.main-project-pic-right {
+
+	width: 100%;
+	float: initial;
+}
+.main-project-pic-left {
+
+	width: 100%;
+	float: initial;
+}
+
+
+
+ #hire {
+
+ 	display: none;
+ }
+
+  #hire-me {
+
+ 	display: inline-block;
+ }
+
+ #description {
+ 	color: black;
+ 	text-shadow: none;
+ 	text-shadow: 0.5px 0.5px white;
+ }
+
+#first-heading {
+	color: black;
+	text-shadow: none;
+	 	text-shadow: 0.5px 0.5px white;
+}
+
+.person-pic{
+	margin: 0 auto;
+	width: 100%;
+	display: block;
+}
+.person-desc {
+	text-align: center;
+}
+
+.project-title {
+	text-align: center;
+}
+
+.project-desc-lg {
+	text-align: center;
+}
+
+ul {
+	padding: auto;
+
+}
+
+}
